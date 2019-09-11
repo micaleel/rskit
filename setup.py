@@ -25,10 +25,6 @@ setup(
     author_email="micaleel@gmail.com",
     url="https://github.com/micaleel/rskit",
     license="MIT",
-    keywords=[
-        "personalization",
-        "recommenders",
-        "recommender systems",
-    ],
+    keywords=["personalization", "recommenders", "recommender systems"],
     install_requires=["jupyter_client", "jupyter"],
 )

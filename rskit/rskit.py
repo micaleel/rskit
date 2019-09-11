@@ -6,9 +6,9 @@ LOG = logging.getLogger("rskit")
 
 
 def main():
-    LOG.info('Executing rskit version %s', __version__)
+    LOG.info("Executing rskit version %s", __version__)
 
 
 def setup_logging():
-    logging.basicConfig(format='%(message)s')
+    logging.basicConfig(format="%(message)s")
     LOG.setLevel(logging.INFO)
