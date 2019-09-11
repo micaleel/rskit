@@ -99,6 +99,9 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
+.idea/
 # mypy
 .mypy_cache/
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/Project_Default.xml
