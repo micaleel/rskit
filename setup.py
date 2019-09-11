@@ -6,24 +6,24 @@ except ImportError:
 import re
 
 version = re.search(
-    '^__version__\s*=\s*"(.*)"', open("rkit/rkit.py").read(), re.M
+    '^__version__\s*=\s*"(.*)"', open("rskit/rskit.py").read(), re.M
 ).group(1)
 
 with open("README.md", "rb") as f:
     description = f.read().decode("utf-8")
 
 setup(
-    name="rkit",
-    packages=["rkit"],
+    name="rskit",
+    packages=["rskit"],
     python_requires=">=3",
-    entry_points={"console_scripts": ["rkit = rkit.rkit:main"]},
+    entry_points={"console_scripts": ["rskit = rskit.rskit:main"]},
     version=version,
     description="Toolkit for recommender systems",
     long_description=description,
     long_description_content_type="text/markdown",
     author="Khalil Muhammad",
     author_email="micaleel@gmail.com",
-    url="https://github.com/micaleel/rkit",
+    url="https://github.com/micaleel/rskit",
     license="MIT",
     keywords=[
         "personalization",

@@ -5,7 +5,7 @@ black:
 	black . --exclude venv/
 
 lint:
-	pylint rkit tests
+	pylint rskit tests
 
 test:
 	pytest tests
